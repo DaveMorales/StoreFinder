@@ -1,0 +1,43 @@
+/**
+ * Created by DaveMorales on 05/06/2020
+ *
+ * File to manage dependencies shared by all modules.
+ * This allows us to keep everything separated and clean, also, this helps us to use
+ * the same version of dependencies in all modules.
+ *
+ */
+
+ext {
+    // Android
+    versionName = "1.0"
+    versionCode = 1
+
+    androidCompileSdkVersion = 29
+    targetSdkVersion = 29
+    minSdkVersion = 21
+
+    testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+    // Libraries
+    androidxVersion = '1.1.0'
+    legacySupportVersion = '1.0.0'
+    coreKtxVersion = '1.3.0'
+    navigationVersion = '2.2.2'
+    constraintLayoutVersion = '1.1.3'
+    koinVersion = "2.1.5"
+    lifecycleVersion = '2.2.0'
+    timberVersion = '4.7.1'
+    gsonVersion = '2.8.5'
+    retrofit2Version = '2.9.0'
+    okhttpLoggingVersion = '4.7.2'
+    pagingVersion = '2.1.2'
+    roomVersion = '2.2.5'
+    stethoVersion = '1.5.1'
+    PSLocationVersion = '17.0.0'
+
+    //Test versions
+    junitVersion = '4.13'
+    junitAndroidxVersion = '1.1.1'
+    espressoVersion = '3.2.0'
+
+}

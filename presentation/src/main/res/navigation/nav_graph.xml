@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/stores_main_fragment">
+
+    <fragment
+        android:id="@+id/stores_main_fragment"
+        android:name="com.fdmt.walmart.presentation.stores.StoreMainFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_store_main" >
+        <action
+            android:id="@+id/action_FirstFragment_to_map_fragment"
+            app:destination="@id/map_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/map_fragment"
+        android:name="com.fdmt.walmart.presentation.stores.map.StoreMapFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_maps" >
+        <action
+            android:id="@+id/action_map_fragment_to_FirstFragment"
+            app:destination="@id/stores_main_fragment" />
+    </fragment>
+
+</navigation>

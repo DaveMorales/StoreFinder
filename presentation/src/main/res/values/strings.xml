@@ -1,0 +1,16 @@
+<resources>
+    <string name="title_activity_main">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="something_went_wrong">Algo salió mal</string>
+    <string name="ph_opens">Horario:</string>
+    <string name="ph_phone">Telefono(s):</string>
+    <string name="list_view">List View</string>
+    <string name="map_view">Map View</string>
+</resources>
